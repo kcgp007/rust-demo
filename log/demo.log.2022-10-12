@@ -1,0 +1,30 @@
+  2022-10-13T01:13:23.073479545+08:00  INFO rust_demo: aaa
+    at src/main.rs:14 on main ThreadId(1)
+
+  2022-10-13T01:21:42.148622191+08:00  INFO rust_demo: aaa
+    at src/main.rs:15 on main ThreadId(1)
+
+  2022-10-13T01:22:03.593622882+08:00  INFO rust_demo: aaa
+    at src/main.rs:15 on main ThreadId(1)
+
+  2022-10-13T01:22:03.593985428+08:00 TRACE rust_demo: error
+    at src/main.rs:17 on main ThreadId(1)
+
+  2022-10-13T01:22:48.392511302+08:00  INFO rust_demo: aaa
+    at src/main.rs:15 on main ThreadId(1)
+
+  2022-10-13T01:22:48.392783155+08:00 TRACE rust_demo: error
+    at src/main.rs:17 on main ThreadId(1)
+
+  2022-10-13T01:22:48.393108439+08:00 ERROR rust_demo: error
+    at src/main.rs:19 on main ThreadId(1)
+
+  2022-10-13T01:32:37.82517297+08:00  INFO rust_demo: aaa
+    at src/main.rs:14 on main ThreadId(1)
+
+  2022-10-13T01:32:37.82544121+08:00 TRACE rust_demo: error
+    at src/main.rs:16 on main ThreadId(1)
+
+  2022-10-13T01:32:37.825796231+08:00 ERROR rust_demo: error
+    at src/main.rs:18 on main ThreadId(1)
+
