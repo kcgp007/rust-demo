@@ -1,3 +1,4 @@
 pub fn main() {
-    let _guess: u32 = "42".parse().expect("Not a number!");
+    let mut s = "ss";
+    let s = s.to_owned() + "sss";
 }
