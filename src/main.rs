@@ -8,5 +8,5 @@ fn main() {
     // trace!("error");
     // error!("error");
 
-    demo::main();
+    demo::demo4();
 }
