@@ -73,4 +73,7 @@ pub fn demo4() {
     let p3 = Point { x: 1i32, y: 1i32 };
     let p4 = Point { x: 2i32, y: 2i32 };
     println!("{:?}", add(p3, p4));
+
+    let i = 1;
+    println!("{i}");
 }
