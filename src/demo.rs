@@ -77,3 +77,21 @@ pub fn demo4() {
     let i = 1;
     println!("{i}");
 }
+
+pub fn demo5() {
+    let string1 = String::from("long string is long");
+
+    {
+        let string2 = String::from("xyz");
+        let result = longest(string1.as_str(), string2.as_str());
+        println!("The longest string is {}", result);
+    }
+}
+
+fn longest(x: &str, y: &str) -> String {
+    if x.len() > y.len() {
+        String::from(x)
+    } else {
+        String::from(y)
+    }
+}
