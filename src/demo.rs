@@ -68,14 +68,14 @@ pub fn demo4() {
         x: 2.1f32,
         y: 2.1f32,
     };
-    println!("{:?}", add(p1, p2));
+    info!("{:?}", add(p1, p2));
 
     let p3 = Point { x: 1i32, y: 1i32 };
     let p4 = Point { x: 2i32, y: 2i32 };
-    println!("{:?}", add(p3, p4));
+    info!("{:?}", add(p3, p4));
 
     let i = 1;
-    println!("{i}");
+    info!("{i}");
 }
 
 pub fn demo5() {
@@ -84,7 +84,7 @@ pub fn demo5() {
     {
         let string2 = String::from("xyz");
         let result = longest(string1.as_str(), string2.as_str());
-        println!("The longest string is {}", result);
+        info!("The longest string is {}", result);
     }
 }
 
