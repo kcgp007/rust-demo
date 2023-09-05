@@ -7,10 +7,7 @@ edition = "2021"
 
 [dependencies]
 tracing = "*"
-tracing-subscriber = { version = "*", features = [
-    "time",
-    "local-time",
-] }
+tracing-subscriber = { version = "*", features = ["time", "local-time"] }
 tracing-appender = "*"
 tracing-error = "*"
 color-eyre = "*"
