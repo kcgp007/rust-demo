@@ -7,10 +7,11 @@ edition = "2021"
 
 [dependencies]
 tracing = "*"
-tracing-subscriber = { version = "*", features = ["time", "local-time"] }
+tracing-subscriber = { version = "*", features = ["chrono"] }
 tracing-appender = "*"
 tracing-error = "*"
 color-eyre = "*"
+chrono = "*"
 # OPENSSL_INCLUDE_DIR=/usr/include/openssl-1.0 OPENSSL_LIB_DIR=/usr/lib/openssl-1.0
 #tensorflow = { version = "*", features = [
 #    "tensorflow_gpu",
